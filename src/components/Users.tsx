@@ -1,14 +1,12 @@
 import { useUsers } from "../hooks/useUsers";
 
-
 export const Users = () => {
-
   const { nextUsers, users, firstPage } = useUsers();
 
   return (
     <>
       <h3>Users</h3>
-      <table className="table">
+      <table>
         <thead>
           <tr>
             <th>Avatar</th>
