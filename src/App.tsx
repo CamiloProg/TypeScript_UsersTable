@@ -4,6 +4,7 @@
 // import { ContadorHook } from "./components/ContadorHook";
 // import { Login } from "./components/Login";
 import { Users } from "./components/Users";
+// import { Formularios } from "./components/Formularios";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
 
       {/* <Login /> */}
       <Users />
+      {/* <Formularios /> */}
     </div>
   );
 };
